@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-03-16 07:39:11">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Fibonacci V1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>b6b5e81edb301300ce9059d0cf9619d8</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>96f736fadbf81300ce9059d0cf9619b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_e9b38596dbb01300ce9059d0cf9619a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Self-Service">08771d0cc0a8016401f604303b94b999</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Fibonacci Calulators</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_fibonacci_calulator</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:54:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e9b38596dbb01300ce9059d0cf9619a6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Fibonacci Calulator</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_e9b38596dbb01300ce9059d0cf9619a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 09:58:28</sys_updated_on><timeline_page/><title>Fibonacci Calulator</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1348434105</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>12f736fadbf81300ce9059d0cf9619b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16223f25d2b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>67a4c5d60cb0130023580088a9e0d381</update_guid>
+<update_guid_history>67a4c5d60cb0130023580088a9e0d381:1348434105,c9a441d6fbb013004c8ff1c1bf0abb51:-1081570727,e1b385963ab013003ace0ad29473e7a8:374635398</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_b2b405d6dbb01300ce9059d0cf9619b8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="b2b405d6dbb01300ce9059d0cf9619b8" sys_domain="global" table="u_fibonacci_calulator" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_fibonacci_number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 13:51:59</sys_created_on><sys_id>c42a399adb741300ce9059d0cf9619f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_fibonacci_calulator" sys_domain="global" view="Default view">b2b405d6dbb01300ce9059d0cf9619b8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 13:51:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_limit_output</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 13:51:59</sys_created_on><sys_id>8c2a399adb741300ce9059d0cf9619f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_fibonacci_calulator" sys_domain="global" view="Default view">b2b405d6dbb01300ce9059d0cf9619b8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 13:51:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>fibonacci_uiMacro.xml</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 13:51:59</sys_created_on><sys_id>002a399adb741300ce9059d0cf9619fa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="fibonacci_UI">bff38d96dbb01300ce9059d0cf9619da</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="u_fibonacci_calulator" sys_domain="global" view="Default view">b2b405d6dbb01300ce9059d0cf9619b8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 13:51:59</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_fibonacci_calulator</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:58:42</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b2b405d6dbb01300ce9059d0cf9619b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_fibonacci_calulator</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_b2b405d6dbb01300ce9059d0cf9619b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 09:58:42</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1242457946</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>12f736fadbf81300ce9059d0cf9619bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16224c825940000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>842a399aca741300c75e56c256e630fb</update_guid>
+<update_guid_history>842a399aca741300c75e56c256e630fb:-1242457946,76f4451a5fb013002ec7fab61c370ca8:-818536399,3eb48dd693b01300e935eb1ac35990bc:601324401</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_macro_65e34d96dbb01300ce9059d0cf961923</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;fibonacci_uiMacro&lt;/name&gt;&lt;scoped_name/&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-03-14 09:55:19&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;65e34d96dbb01300ce9059d0cf961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;fibonacci_uiMacro&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_65e34d96dbb01300ce9059d0cf961923&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-03-15 22:23:21&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"/&gt;
+	&lt;script language="javascript" src="fibonacciCalcAppInclude.jsdbx"/&gt;
+	
+&lt;style&gt;
+	.resultView{
+	background-color: lightgreen;
+    text-align: center;
+    font-size: large;
+	border-radius: 6px;
+    font-style: italic;
+	}
+	[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+		display: none !important;
+    }
+&lt;/style&gt;	
+	
+&lt;script&gt;
+   var app = angular.module("fibonacciCalcApp");  
+   app.controller('fibonacciController',function($scope,$http) {
+        $scope.dataLoading = false;
+	    
+	//call rest service resource
+    $scope.calcFibonacci = function() {
+	$scope.number = g_form.getIntValue('u_fibonacci_number');
+	$scope.limitOutput = g_form.getIntValue('u_limit_output');
+	$scope.dataLoading = true;
+	
+      $http({  
+            method: 'GET',  
+            url: '/api/79385/v1/fibonacci?num='+$scope.number,  
+            headers: {'X-UserToken' : window.g_ck }  
+            }).then(function(response) {
+	           $scope.results = response.data.result;
+		       $scope.sequence = response.data.result.pattern;
+	           $scope.dataLoading = false;
+			});   
+	 
+	};	
+});
+	
+&lt;/script&gt;
+&lt;body sn-ng-formatter="fibonacciCalcApp" id="fibonacciController" ng-controller="fibonacciController"&gt;
+	&lt;div ng-cloak="" ng-class="{resultView: results}" ng-if="results $[AMP]$[AMP] limitOutput != '' "&gt;Here are your results {{sequence | limitTo:limitOutput }}&lt;/div&gt;
+	&lt;div ng-cloak="" ng-class="{resultView: results}" ng-if="results $[AMP]$[AMP] limitOutput == '' "&gt;Here are your results {{sequence}}&lt;/div&gt;
+	 &lt;div ng-if="dataLoading"&gt;&lt;g:macro_invoke macro="loader"/&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+<payload_hash>254476162</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>16f736fadbf81300ce9059d0cf9619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622bc2ae360000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>fibonacci_uiMacro</target_name>
+<type>Macro</type>
+<update_domain>global</update_domain>
+<update_guid>18c83cbae2f0130077620cb83ce06855</update_guid>
+<update_guid_history>18c83cbae2f0130077620cb83ce06855:254476162,bf636a1e77f41300ae259e4bb5cc444e:-1400003617,2a41669a8ff4130000ca29b30ff0491d:1445872046,2a4f96da277413000f750630e883b512:-1730259619,458bf9da1474130096e9423e8e4979ad:-964696580,03e6ddd615f013004c1886bce00f1737:1146748604,d1b6d9d61df013005c69ef97dea059e9:872490295,aff519567bf0130040d94858d8ffaa67:1697173847,ecd31556d4f0130099cfee60231c2fd9:-517863326,a42355d281f01300d98b075d014de64b:983238676,b042599226f013002665ec8c89ab220e:-1301411490,723119de99b013004cb8cdf7929fc352:-481119776,6d2d455e69b01300bf215c85139bbaf9:-1645782703,6d3c455ed4b01300c8b9f38187fa13f6:-2078221042,d42b451af9b013000345513530599e49:-1047128322,4c0b451e19b01300e9a4deba20eec23f:-587805871,744a49da99b01300725da7caff79b9a4:1379509003,8248491ae9b013005853775a72533abe:1462118117,55f3c95697b01300cfd30963e33fb2ec:-1970796397</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_fibonacci_calulator__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Fibonacci Calulator" language="en" table="u_fibonacci_calulator"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Fibonacci Calulator</label><language>en</language><name>u_fibonacci_calulator</name><plural>Fibonacci Calulators</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:54:16</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7db38596dbb01300ce9059d0cf9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fibonacci Calulator</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_fibonacci_calulator__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 09:54:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1647256587</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>1af736fadbf81300ce9059d0cf9619b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16223ee83bb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>7db3c59676b01300454be20305bb3309</update_guid>
+<update_guid_history>7db3c59676b01300454be20305bb3309:1647256587</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_fibonacci_calulator_u_fibonacci_number</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_fibonacci_number" table="u_fibonacci_calulator"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Fibonacci Number</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_fibonacci_number</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="Integer">integer</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>u_fibonacci_calulator</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:59:47</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b6f4051adbb01300ce9059d0cf9619fa</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Fibonacci Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_fibonacci_calulator_u_fibonacci_number</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 10:30:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1105252573</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>1ef736fadbf81300ce9059d0cf9619b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>162240f98cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator.Fibonacci Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>53fbc19e23b013001a5b864247de9ee4</update_guid>
+<update_guid_history>53fbc19e23b013001a5b864247de9ee4:-1105252573,3ef4451ae1b01300ad0cb09182f2e5a4:1776794971</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_e5b7a49edb301300ce9059d0cf96197e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 07:52:26</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>e5b7a49edb301300ce9059d0cf96197e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>3fb7e49edb301300ce9059d0cf961946</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_query_parameter_map_e5b7a49edb301300ce9059d0cf96197e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 07:52:26</sys_updated_on><web_service_operation display_value="getPattern">4926ac9adb301300ce9059d0cf96192b</web_service_operation><web_service_query_parameter display_value="num">3fb7e49edb301300ce9059d0cf961946</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>939966990</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>1ef736fadbf81300ce9059d0cf9619bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>162237ef7a80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>3fb7e49edb301300ce9059d0cf961946</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid>c5d7ec1ee73013005a0e8105b1e30eb7</update_guid>
+<update_guid_history>c5d7ec1ee73013005a0e8105b1e30eb7:939966990</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_formatter_bff38d96dbb01300ce9059d0cf9619da</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter"><sys_ui_formatter action="INSERT_OR_UPDATE"><active>true</active><angular_module>fibonacciCalcApp</angular_module><formatter>fibonacci_uiMacro.xml</formatter><name>fibonacci_UI</name><sys_class_name>sys_ui_formatter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:56:18</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>bff38d96dbb01300ce9059d0cf9619da</sys_id><sys_mod_count>2</sys_mod_count><sys_name>fibonacci_UI</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_formatter_bff38d96dbb01300ce9059d0cf9619da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 10:17:36</sys_updated_on><table>u_fibonacci_calulator</table><type>formatter</type></sys_ui_formatter></record_update>]]></payload>
+<payload_hash>1618463661</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>52f736fadbf81300ce9059d0cf9619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622403e18c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>fibonacci_UI</target_name>
+<type>UI Formatter</type>
+<update_domain>global</update_domain>
+<update_guid>f3090ddadfb013000aa8328f60469b7d</update_guid>
+<update_guid_history>f3090ddadfb013000aa8328f60469b7d:1618463661,9d648996f4b0130043773d05495a92aa:-1224591876,7f24c596e7b013001ca5441f8736069f:-236407843</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_fibonacci_calulator_u_limit_output_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_limit_output" label="Limit Output Further" language="en" table="u_fibonacci_calulator"><sys_documentation action="INSERT_OR_UPDATE"><element>u_limit_output</element><help/><hint>Optionally limit the sequence of numbers output even further.</hint><label>Limit Output Further</label><language>en</language><name>u_fibonacci_calulator</name><plural>Limit Output Furthers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 13:51:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8c2a399adb741300ce9059d0cf9619ef</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Limit Output Further</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_fibonacci_calulator_u_limit_output_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-16 07:08:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>879370824</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>56f736fadbf81300ce9059d0cf9619b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622da37ee30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator.Limit Output Further</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>99f0be7672f813009e32542e615223fb</update_guid>
+<update_guid_history>99f0be7672f813009e32542e615223fb:879370824,145a399ad1741300f05bf82c3de307d8:1218636188,4c2a399ad27413009accf64780c1f6f8:1931991885</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_8f94669adbf41300ce9059d0cf961922</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;&lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;article_type&gt;text&lt;/article_type&gt;&lt;author display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/author&gt;&lt;can_read_user_criteria/&gt;&lt;cannot_read_user_criteria/&gt;&lt;category/&gt;&lt;cmdb_ci/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;disable_commenting&gt;false&lt;/disable_commenting&gt;&lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;&lt;display_attachments&gt;false&lt;/display_attachments&gt;&lt;flagged&gt;false&lt;/flagged&gt;&lt;image/&gt;&lt;kb_category display_value="FAQ"&gt;8deb2552ff0131009b20fffffffffffc&lt;/kb_category&gt;&lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;&lt;meta/&gt;&lt;number&gt;KB0010004&lt;/number&gt;&lt;published&gt;2018-03-15&lt;/published&gt;&lt;rating/&gt;&lt;retired/&gt;&lt;roles/&gt;&lt;short_description&gt;Fibonacci Calculator&lt;/short_description&gt;&lt;source/&gt;&lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-03-14 17:06:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8f94669adbf41300ce9059d0cf961922&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-03-16 07:38:48&lt;/sys_updated_on&gt;&lt;sys_view_count&gt;20&lt;/sys_view_count&gt;&lt;text&gt;&lt;![CDATA[&lt;h4&gt;Example Use Case&lt;/h4&gt;
+&lt;p&gt;The web service accepts a number, n, as input and returns the first n Fibonacci numbers, starting from 0. ie. given n  &amp;#61; 5, appropriate output would represent the sequence [0, 1, 1, 2, 3].&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h4&gt;Usage&lt;/h4&gt;
+&lt;ul style="list-style-position: inside;" type="disc"&gt;&lt;li&gt;&lt;strong&gt;How do I use it in ServiceNow?&lt;/strong&gt;
+&lt;ol style="list-style-position: inside;" start="1" type="1"&gt;&lt;li&gt;Navigate to &lt;a href="https://dev24089.service-now.com/u_fibonacci_calulator.do?sys_id&amp;#61;-1&amp;amp;sysparm_stack&amp;#61;u_fibonacci_calulator_list.do" rel="nofollow"&gt;Fibonacci Calculator&lt;/a&gt; in ServiceNow.&lt;/li&gt;&lt;li&gt;Enter the Fibonacci base “n” number to calculate the sequence.&lt;/li&gt;&lt;li&gt;Optionally enter the limit of output numbers to return.&lt;/li&gt;&lt;li&gt;Click the &lt;strong&gt;Get Sequence&lt;/strong&gt; form button and the results will display on the form.&lt;/li&gt;&lt;/ol&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;&lt;strong&gt;How do I directly access the REST API?&lt;/strong&gt;
+&lt;ol style="list-style-position: inside;"&gt;&lt;li&gt;Select any tool to use that can invoke REST requests.
+&lt;ul style="list-style-position: inside;" type="square"&gt;&lt;li style="list-style-type: none;"&gt;
+&lt;ul style="list-style-position: inside;" type="square"&gt;&lt;li&gt;Request Expectations
+&lt;ul style="list-style-position: inside;" type="square"&gt;&lt;li&gt;Headers should be set to accept Content-Type: application/json&lt;/li&gt;&lt;li&gt;No authorization header is needed at this point.&lt;/li&gt;&lt;li&gt;Perform a &lt;em&gt;GET&lt;/em&gt; Request against the url &lt;a href="https://dev24089.service-now.com/api/79385/v1/fibonacci" rel="nofollow"&gt;https://dev24089.service-now.com/api/79385/v1/fibonacci&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Set your &lt;em&gt;GET&lt;/em&gt; parameter following the above URI like the following, &lt;code&gt;?num&amp;#61;5&lt;/code&gt;. Where “num” is the base for the Fibonacci Sequence you want in your response.&lt;/li&gt;&lt;li&gt;The parameter &amp;#34;num&amp;#34; sent must not be a negative number.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;Response Expectations
+&lt;ul style="list-style-position: inside;" type="square"&gt;&lt;li&gt;The response will be in the form application/json.&lt;/li&gt;&lt;li&gt;HTTP code 200 when the request was successful.&lt;/li&gt;&lt;li&gt;Example of a successful response given the parameter &lt;code&gt;num&lt;/code&gt; is 5:&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;div style="margin-left: 20%;"&gt;
+&lt;pre&gt; {&lt;/pre&gt;
+&lt;pre&gt;         &amp;#34;result&amp;#34;: {&lt;/pre&gt;
+&lt;pre&gt;           &amp;#34;pattern&amp;#34;: [&lt;/pre&gt;
+&lt;pre&gt;             0,&lt;/pre&gt;
+&lt;pre&gt;             1,&lt;/pre&gt;
+&lt;pre&gt;             1,&lt;/pre&gt;
+&lt;pre&gt;             2,&lt;/pre&gt;
+&lt;pre&gt;             3,&lt;/pre&gt;
+&lt;pre&gt;             5,&lt;/pre&gt;
+&lt;pre&gt;             8&lt;/pre&gt;
+&lt;pre&gt;           ]&lt;/pre&gt;
+&lt;pre&gt;         }&lt;/pre&gt;
+&lt;pre&gt;       }&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: 20%;"&gt;
+&lt;ul type="square"&gt;&lt;li&gt;A bad request with a missing or incorrect parameter will result a HTTP status code of 400.&lt;/li&gt;&lt;li&gt;Also a bad request will contain an error message in the JSON response body in the message element.&lt;/li&gt;&lt;li&gt;Example of a failed REST request:&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;{&lt;/pre&gt;
+&lt;pre&gt;  &amp;#34;error&amp;#34;: {&lt;/pre&gt;
+&lt;pre&gt;    &amp;#34;detail&amp;#34;: &amp;#34;&amp;#34;,&lt;/pre&gt;
+&lt;pre&gt;    &amp;#34;message&amp;#34;: &amp;#34;Parameter num cannot be negative.&amp;#34;&lt;/pre&gt;
+&lt;pre&gt;  },&lt;/pre&gt;
+&lt;pre&gt;  &amp;#34;status&amp;#34;: &amp;#34;failure&amp;#34;&lt;/pre&gt;
+&lt;pre&gt;}&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h4&gt;Testing Options&lt;/h4&gt;
+&lt;p&gt;Testing the Fibonacci Calculator can be done in a number of different ways.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Automated Testing Framework within ServiceNow.&lt;/li&gt;&lt;li&gt;Use an third party REST/HTTP tool to invoke the web service.&lt;/li&gt;&lt;li&gt;Use the OOB REST API Explorer in ServiceNow.&lt;/li&gt;&lt;li&gt;Manual testing in a sub prod environment of the UI to invoke the web service.&lt;/li&gt;&lt;li&gt;Third party automated testing tool.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h4&gt;Unit/Functional Test Cases&lt;/h4&gt;
+&lt;table style="border-collapse: collapse; border-color: #c1c1c1;" border="1" width="70%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="text-align: center;"&gt;Test Case&lt;/th&gt;&lt;th style="text-align: center;"&gt;Desired Result&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="padding: 7px;"&gt;Invoke GET Request with valid URI parameter num&lt;/td&gt;&lt;td&gt;Response received with HTTP status code 200 and JSON body contains pattern element with correct sequence.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 7px;"&gt;Invoke GET Request with negative URI parameter num&lt;/td&gt;&lt;td&gt;Error response received with HTTP failure status code 400, and response JSON body contains error message: &amp;#34;Parameter num cannot be negative.&amp;#34;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 7px;"&gt;Invoke GET Request with URI num parameter empty&lt;/td&gt;&lt;td&gt;Error response received with HTTP failure status code 400, and and response JSON body contains error message: &amp;#34;No Base Number provided, parameter num cannot be empty.&amp;#34;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 7px;"&gt;Enter a positive number in the field &lt;em&gt;Fibonacci Number&lt;/em&gt; within ServiceNow UI. &lt;br /&gt;Click the &lt;em&gt;Get Sequence&lt;/em&gt; form button.&lt;/td&gt;&lt;td&gt;UI displays correct sequence for number entered in field.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 7px;"&gt;Enter a negative number in the field &lt;em&gt;Fibonacci Number&lt;/em&gt; within ServiceNow UI. &lt;br /&gt;Click the &lt;em&gt;Get Sequence&lt;/em&gt; form button.&lt;/td&gt;&lt;td&gt;UI displays errror message: &amp;#34;Please verify you entered the number correctly, and re-enter the number. The field only accepts positive integers. The field is cleared.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 7px;"&gt;Enter a letter in the field &lt;em&gt;Fibonacci Number&lt;/em&gt; within ServiceNow UI. &lt;br /&gt;Click the &lt;em&gt;Get Sequence&lt;/em&gt; form button.&lt;/td&gt;&lt;td&gt;UI displays errror message: &amp;#34;Please verify you entered the number correctly, and re-enter the number. The field only accepts positive integers. The field is cleared&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 7px;"&gt;Leave the field &lt;em&gt;Fibonacci Number&lt;/em&gt; within ServiceNow UI empty. &lt;br /&gt;Click the &lt;em&gt;Get Sequence&lt;/em&gt; form button.&lt;/td&gt;&lt;td&gt;UI displays errror message: &amp;#34;Please verify you entered the number correctly, and re-enter the number. The field only accepts positive integers. The field is cleared&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 7px;"&gt;Enter a positive integer in the field &lt;em&gt;Fibonacci Number&lt;/em&gt; within ServiceNow UI. &lt;br /&gt;Enter a number in the &lt;em&gt;Limit Output &lt;/em&gt;field.&lt;br /&gt; Click the &lt;em&gt;Get Sequence&lt;/em&gt; form button.&lt;/td&gt;&lt;td&gt;UI displays correct sequence for number entered in field.&lt;br /&gt;Output Sequence is Limited to number entered in &lt;em&gt;Limit Output Further&lt;/em&gt; field.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h4&gt;Future Authorization and Security Options&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;oAuth access with temporary token to access REST web service.&lt;/li&gt;&lt;li&gt;Basic user name and password to access the web service via a Service account.&lt;/li&gt;&lt;li&gt;No authorization required to access web service.&lt;/li&gt;&lt;li&gt;Web service can have applied ACLs, and user must pass all ACL conditions.&lt;/li&gt;&lt;li&gt;ServiceNow UI can be user role based or ACL based to access functionality.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h4&gt;Technical Components&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Scripted REST Resource &lt;a href="https://dev24089.service-now.com/nav_to.do?uri&amp;#61;sys_ws_definition.do?sys_id&amp;#61;4bd56c1edb301300ce9059d0cf9619a1" rel="nofollow"&gt;Fibonacci&lt;/a&gt;&lt;/li&gt;&lt;li&gt;UI Macro for UI Formatter &lt;a href="https://dev24089.service-now.com/nav_to.do?uri&amp;#61;sys_ui_macro.do?sys_id&amp;#61;65e34d96dbb01300ce9059d0cf961923" rel="nofollow"&gt;fibonacci_uiMacro&lt;/a&gt;&lt;/li&gt;&lt;li&gt;UI Script to leverage AngularJS &lt;a href="https://dev24089.service-now.com/nav_to.do?uri&amp;#61;sys_ui_script.do?sys_id&amp;#61;2368c1dadbb01300ce9059d0cf961958" rel="nofollow"&gt;fibonacciCalcAppInclude&lt;/a&gt;&lt;/li&gt;&lt;li&gt;New Table to display UI in ServiceNow Fibonacci Calulator &lt;a href="https://dev24089.service-now.com/nav_to.do?uri&amp;#61;sys_db_object.do?sys_id&amp;#61;9c738196dbb01300ce9059d0cf9619c2" rel="nofollow"&gt;Table&lt;/a&gt;&lt;/li&gt;&lt;li&gt;UI Action form button Get Sequence to invoke REST from UI &lt;a href="https://dev24089.service-now.com/nav_to.do?uri&amp;#61;sys_ui_action.do?sys_id&amp;#61;ddde0d12dbf01300ce9059d0cf96198b" rel="nofollow"&gt;Get Sequence Button&lt;/a&gt;&lt;/li&gt;&lt;li&gt;UI Macro to display loader on UI in ServiceNow &lt;a href="https://dev24089.service-now.com/nav_to.do?uri&amp;#61;sys_ui_macro.do?sys_id&amp;#61;b3315d92dbf01300ce9059d0cf9619cb" rel="nofollow"&gt;loader&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;]]&gt;&lt;/text&gt;&lt;topic&gt;General&lt;/topic&gt;&lt;use_count&gt;0&lt;/use_count&gt;&lt;valid_to&gt;2020-01-01&lt;/valid_to&gt;&lt;wiki/&gt;&lt;workflow_state&gt;published&lt;/workflow_state&gt;&lt;/kb_knowledge&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8f94669adbf41300ce9059d0cf961922"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1356980461</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>5af736fadbf81300ce9059d0cf9619b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622dbf365f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>KB0010004</target_name>
+<type>Knowledge</type>
+<update_domain>global</update_domain>
+<update_guid>f8e7f27a5ff813004a0bde4510429fe1</update_guid>
+<update_guid_history>f8e7f27a5ff813004a0bde4510429fe1:-1356980461,9962fe7624f81300d654974f66f9e208:188071546,0f89dc3acaf0130082a04009641f0032:-1522100816</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_fibonacci_calulator_sys_class_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="u_fibonacci_calulator"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Class</column_label><comments/><create_roles/><default_value>javascript:current.getTableName();</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_class_name</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">sys_class_name</internal_type><mandatory>false</mandatory><max_length>80</max_length><name>u_fibonacci_calulator</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:54:16</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>0eb3c596dbb01300ce9059d0cf96190c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Class</sys_name><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_fibonacci_calulator_sys_class_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 09:54:16</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>616005254</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>5af736fadbf81300ce9059d0cf9619b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16223ee84fe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator.Class</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c6b3c596f6b013003731e4b438047f12</update_guid>
+<update_guid_history>c6b3c596f6b013003731e4b438047f12:616005254</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_3fb7e49edb301300ce9059d0cf961946</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value>1</example_value><name>num</name><required>false</required><short_description/><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 07:52:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3fb7e49edb301300ce9059d0cf961946</sys_id><sys_mod_count>0</sys_mod_count><sys_name>num</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_query_parameter_3fb7e49edb301300ce9059d0cf961946</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 07:52:23</sys_updated_on><web_service_definition display_value="Fibonacci">4bd56c1edb301300ce9059d0cf9619a1</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+<payload_hash>386271458</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>5af736fadbf81300ce9059d0cf9619bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>162237eeea30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>num</target_name>
+<type>Scripted REST Query Parameter</type>
+<update_domain>global</update_domain>
+<update_guid>2cd7a49e243013001122de40e9c2193a</update_guid>
+<update_guid_history>2cd7a49e243013001122de40e9c2193a:386271458</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_2368c1dadbb01300ce9059d0cf961958</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;fibonacciCalcAppInclude&lt;/name&gt;&lt;script&gt;&lt;![CDATA[angular.module("fibonacciCalcApp", []);]]&gt;&lt;/script&gt;&lt;script_name/&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-03-14 10:15:43&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;2368c1dadbb01300ce9059d0cf961958&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;fibonacciCalcAppInclude&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_2368c1dadbb01300ce9059d0cf961958&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-03-14 10:16:55&lt;/sys_updated_on&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>164989261</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>5ef736fadbf81300ce9059d0cf9619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16224033fe80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>fibonacciCalcAppInclude</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_guid>2de8c1da59b013002e93f44ab9daaf5c</update_guid>
+<update_guid_history>2de8c1da59b013002e93f44ab9daaf5c:164989261,dca8c9d6bdb01300fc5de11b091f2e8b:1263076707</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_fibonacci_calulator_u_fibonacci_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_fibonacci_number" label="Fibonacci Number" language="en" table="u_fibonacci_calulator"><sys_documentation action="INSERT_OR_UPDATE"><element>u_fibonacci_number</element><help>New Help?</help><hint>Number to retrieve Fibonacci Sequence. Cannot be a negative value. </hint><label>Fibonacci Number</label><language>en</language><name>u_fibonacci_calulator</name><plural>Fibonacci Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:59:47</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>76f4051adbb01300ce9059d0cf9619fb</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Fibonacci Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_fibonacci_calulator_u_fibonacci_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-15 19:29:49</sys_updated_on><url>https://dev24089.service-now.com/kb_view.do?sysparm_article=KB0010004#</url><url_target>_blank</url_target></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-245599360</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>92f736fadbf81300ce9059d0cf9619b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622b23cd3b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator.Fibonacci Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>52015472cef0130002f3ebe6a4374bf0</update_guid>
+<update_guid_history>52015472cef0130002f3ebe6a4374bf0:-245599360,78da795a2d74130013853289a448b334:-1430669590,bef4451a71b013006f6366269d7855a5:1777622803</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_b1b3c596dbb01300ce9059d0cf961906</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_fibonacci_calulator</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:54:16</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b1b3c596dbb01300ce9059d0cf961906</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_fibonacci_calulator</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_b1b3c596dbb01300ce9059d0cf961906</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 09:54:16</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-1008906990</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>92f736fadbf81300ce9059d0cf9619bc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16223ee835a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>u_fibonacci_calulator</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>b1b3c59687b0130063b54541afe81a07</update_guid>
+<update_guid_history>b1b3c59687b0130063b54541afe81a07:-1008906990</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_fibonacci_calulator_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_fibonacci_calulator"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;live_feed=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_fibonacci_calulator&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-03-14 09:54:15&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;71b38596dbb01300ce9059d0cf9619ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_fibonacci_calulator&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_fibonacci_calulator_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-03-14 09:54:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>248525258</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>96f736fadbf81300ce9059d0cf9619b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16223ee85f90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>cab3c596d6b01300cfb1eeca5b3dae19</update_guid>
+<update_guid_history>cab3c596d6b01300cfb1eeca5b3dae19:248525258,79b3c596bbb01300f7da5d9ad1467f08:-852118115</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_4926ac9adb301300ce9059d0cf96192b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri&gt;/api/79385/fibonacci&lt;/default_operation_uri&gt;&lt;enforce_acl/&gt;&lt;http_method&gt;GET&lt;/http_method&gt;&lt;name&gt;getPattern&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	//get defined query parms
+	var qp = request.queryParams;
+	
+	//check if number is present
+	if (JSUtil.nil(qp.num)){
+		return new sn_ws_err.BadRequestError("No Base Number provided,parameter num cannot be empty.");
+	}
+	
+	var n = parseInt(qp.num);
+	
+	//cannot use negative numbers
+	if(n &lt; 0){
+		return new sn_ws_err.BadRequestError("Parameter num cannot be negative.");
+	}
+	
+	//calculate sequence - returns Array -parmNum Int
+	function fibonacci(parmNum) {
+		var maxSequence = parmNum;
+		var a = 0, b = 1, t;
+		var fibArray = [0];
+		
+		while (parmNum-- &gt; 0) {
+			t = a;
+			a = b;
+			b += t;
+			fibArray.push(a);
+			
+			//reached our limit n time to return
+			if(fibArray.length == maxSequence){
+				return fibArray;
+			}
+		}
+		return fibArray;
+	}
+	var result = fibonacci(n);
+	
+	return {"pattern": result};
+		
+	})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/79385/v1/fibonacci&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;false&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;false&lt;/requires_authentication&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-03-14 07:51:47&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;4926ac9adb301300ce9059d0cf96192b&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;getPattern&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_4926ac9adb301300ce9059d0cf96192b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-03-16 07:18:30&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Fibonacci"&gt;4bd56c1edb301300ce9059d0cf9619a1&lt;/web_service_definition&gt;&lt;web_service_version display_value="v1"&gt;6ef7a49edb301300ce9059d0cf9619dd&lt;/web_service_version&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1046278633</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>96f736fadbf81300ce9059d0cf9619bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622daca01e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>getPattern</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>e733b236caf813001b298e41d1d0e1b5</update_guid>
+<update_guid_history>e733b236caf813001b298e41d1d0e1b5:1046278633,45a0fa72f4f813006f3755a9ea995b51:-1353719738,74fe2e72feb81300de1b03bb2a849b11:-1800341906,246dea72fbf81300e9633c3ad1604a4b:-149811626,db1704f600b01300d362433bde124f59:508191092,8f760076a7b013001762da1742881c9c:89128157,c004f7e216701300db9621785aa6ed3c:-1138646380,e4f8f516dc34130084c56e967407c70d:379137155,d218b9523134130012915b3d793479c4:-75682646,96b191d250f0130038f8f94d99a39d1e:-688852142,73f241162cb0130090e0db9e825c0533:-1688192127,c8a2cd52cc701300306c3224ea75d0a8:-40756365,06228dd260b0130023b33541e35bc8ea:-309414554,3180cd5246701300c6353f273f1c6aa2:-1731431751,7feffc52207013006722a4ea8fac3295:1586816398,046f789e9470130062000ff35633115a:90929599,c1bbec52917013001bdfd68b28757b79:-204668098,9daa681200701300a471bc8af021be0e:-2105236439,041a64deee301300d76bc62006380cb6:-1343294848,b9f9605e5b3013000b9d3d3d33fda531:691793465,dd98ac9ee2301300318e997d2b0beec0:-1530528753,ea38a49e7830130028995a7c8cae2684:1811112999,aaf7a89ea7301300acc52e5453efabae:-2058426745,b3a7ac1efb3013004d7ef8ad018809e5:2146952767</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_a1b38596dbb01300ce9059d0cf9619a9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Self-Service">c4b9454847210100ba13a5554ee490ca</application><filter/><name>Fibonacci Calulators</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:54:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>a1b38596dbb01300ce9059d0cf9619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fibonacci Calulators</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_a1b38596dbb01300ce9059d0cf9619a9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 09:54:15</sys_updated_on><table>u_fibonacci_calulator</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-1552550931</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>9af736fadbf81300ce9059d0cf9619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16223ee80190000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulators</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>b5b38596a9b01300958a7972ec81ccaa</update_guid>
+<update_guid_history>b5b38596a9b01300958a7972ec81ccaa:-1552550931</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_ddde0d12dbf01300ce9059d0cf96198b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;get_sequence&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;comments/&gt;&lt;condition&gt;current.isNewRecord()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_style/&gt;&lt;hint&gt;Calculate Fibonacci sequence from a given number&lt;/hint&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Get Sequence&lt;/name&gt;&lt;onclick&gt;callFibonacciResource()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function callFibonacciResource(){
+	var num = g_form.getIntValue('u_fibonacci_number');
+	
+	if(num == '' || num &lt; 0){
+		g_form.addErrorMessage('Please verify you entered the number correctly, and re-enter the number. The field only accepts positive integers.');
+		g_form.clearValue('u_fibonacci_number');
+		return;
+	}
+	angular.element(document.getElementById('fibonacciController')).scope().calcFibonacci();
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;false&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-03-14 10:49:23&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ddde0d12dbf01300ce9059d0cf96198b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Sequence&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_ddde0d12dbf01300ce9059d0cf96198b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-03-15 19:12:09&lt;/sys_updated_on&gt;&lt;table&gt;u_fibonacci_calulator&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2071126011</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>9ef736fadbf81300ce9059d0cf9619b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622b13a1650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Get Sequence</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>a3fccc7ee2b013000f44984f3c7abcd0</update_guid>
+<update_guid_history>a3fccc7ee2b013000f44984f3c7abcd0:2071126011,d0c0911210f0130024fb9d0923479186:1682812633,59505112e8f01300e12a1bb2be55282d:890283673</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_9c738196dbb01300ce9059d0cf9619c2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><client_scripts_access>true</client_scripts_access><configuration_access>true</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>true</delete_access><extension_model/><is_extendable>true</is_extendable><label>Fibonacci Calulator</label><live_feed_enabled>true</live_feed_enabled><name>u_fibonacci_calulator</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 09:54:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9c738196dbb01300ce9059d0cf9619c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fibonacci Calulator</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_9c738196dbb01300ce9059d0cf9619c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 09:54:15</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1971615583</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>d2f736fadbf81300ce9059d0cf9619b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16223ee83d30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>7db3c5965ab013001e048e6103c40a0a</update_guid>
+<update_guid_history>7db3c5965ab013001e048e6103c40a0a:-1971615583</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_4bd56c1edb301300ce9059d0cf9619a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/79385/fibonacci</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>v1</default_version><doc_link>https://dev24089.service-now.com/kb_view.do?sysparm_article=KB0010004#</doc_link><enforce_acl/><is_versioned>true</is_versioned><name>Fibonacci</name><namespace>79385</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>fibonacci</service_id><short_description>Calculate the Fibonacci Sequence given parameter num in URI</short_description><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 07:44:12</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>4bd56c1edb301300ce9059d0cf9619a1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Fibonacci</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_definition_4bd56c1edb301300ce9059d0cf9619a1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-15 19:54:53</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>1612480263</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>d2f736fadbf81300ce9059d0cf9619bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622b3ac1fe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>Fibonacci</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid>a1c6d0b6c2f013009b56162a95c38937</update_guid>
+<update_guid_history>a1c6d0b6c2f013009b56162a95c38937:1612480263,62f7a89eef301300262905ceb016fbac:867251775,70f560526d301300b42baccd1c64bec7:-64294244</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_macro_b3315d92dbf01300ce9059d0cf9619cb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;loader&lt;/name&gt;&lt;scoped_name/&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-03-14 10:53:36&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;b3315d92dbf01300ce9059d0cf9619cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;loader&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_b3315d92dbf01300ce9059d0cf9619cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-03-14 10:53:36&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;style&gt;
+.loader {
+ margin-left: 40%;
+}
+&lt;/style&gt;
+&lt;div id="loadingicon"&gt;
+&lt;p class="loader"&gt;LOADING.....&lt;/p&gt;
+&lt;img class="loader" id="image_spinner" src="images/ajax-loader.gifx"/&gt;
+&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+<payload_hash>341957929</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>d6f736fadbf81300ce9059d0cf9619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622424d5630000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>loader</target_name>
+<type>Macro</type>
+<update_domain>global</update_domain>
+<update_guid>0341911234f013007aad835d3f3e888a</update_guid>
+<update_guid_history>0341911234f013007aad835d3f3e888a:341957929</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_42da42d00a0a0b340066377beb6dd099</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;sysverb_insert&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;comments&gt;Saves a new record and redirects back to previous screen (usually a list).&amp;#13;
+&lt;/comments&gt;&lt;condition&gt;current.canCreate() &amp;amp;&amp;amp; current.getTableName() != 'u_fibonacci_calulator'&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Submit&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;-100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[answer = current.insert();
+gs.include('ActionUtils');
+var au = new ActionUtils();
+au.postInsert(current);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;false&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;glide.maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2008-02-22 20:35:38&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;42da42d00a0a0b340066377beb6dd099&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Submit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Test Management" source="com.snc.test_mgmt"&gt;50af4d6adb233200ce9059d0cf9619e9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_42da42d00a0a0b340066377beb6dd099&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-03-14 10:42:35&lt;/sys_updated_on&gt;&lt;table&gt;global&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1015313891</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>daf736fadbf81300ce9059d0cf9619b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>162241ac0210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>global</table>
+<target_name>Submit</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>f9ce811233f0130052812d2f7d2e5c81</update_guid>
+<update_guid_history>f9ce811233f0130052812d2f7d2e5c81:-1015313891,e81e819e95b013005289691f9545dac9:645167434,a01e819e6fb013008c6117d9f08169c8:-1417397678</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_fibonacci_calulator_u_limit_output</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_limit_output" table="u_fibonacci_calulator"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Limit Output Further</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_limit_output</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_fibonacci_calulator</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 13:51:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>0c2a399adb741300ce9059d0cf9619ee</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Limit Output Further</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_fibonacci_calulator_u_limit_output</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-16 07:08:32</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-590574163</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>def736fadbf81300ce9059d0cf9619b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1622da37ea10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table>u_fibonacci_calulator</table>
+<target_name>Fibonacci Calulator.Limit Output Further</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>11f0be76d0f8130017662bf511148ffa</update_guid>
+<update_guid_history>11f0be76d0f8130017662bf511148ffa:-590574163,882a399a91741300ee5404a08c48eaf7:2068745589</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_version_6ef7a49edb301300ce9059d0cf9619dd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_version"><sys_ws_version action="INSERT_OR_UPDATE"><active>true</active><deprecated>false</deprecated><is_default>true</is_default><short_description/><sys_class_name>sys_ws_version</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-14 07:53:04</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6ef7a49edb301300ce9059d0cf9619dd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>v1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_version_6ef7a49edb301300ce9059d0cf9619dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-03-14 07:53:29</sys_updated_on><version>1</version><version_id>v1</version_id><web_service_definition display_value="Fibonacci">4bd56c1edb301300ce9059d0cf9619a1</web_service_definition></sys_ws_version></record_update>]]></payload>
+<payload_hash>-843436180</payload_hash>
+<remote_update_set display_value="Fibonacci V1">96f736fadbf81300ce9059d0cf9619b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-03-16 07:39:11</sys_created_on>
+<sys_id>def736fadbf81300ce9059d0cf9619bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>162237fedce0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-03-16 07:39:11</sys_updated_on>
+<table/>
+<target_name>v1</target_name>
+<type>Scripted REST Version</type>
+<update_domain>global</update_domain>
+<update_guid>a418a4dade301300ab0231a31097e483</update_guid>
+<update_guid_history>a418a4dade301300ab0231a31097e483:-843436180,eaf7a89ed030130096b8fcce0fc3f3a9:1887853899</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
